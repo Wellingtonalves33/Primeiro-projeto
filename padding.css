@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;/* tudo vai fica do mesmo tamnaha*/
+}
+.box{
+ width: 50px; /* lagura*/
+ height: 50px; /* altura*/
+ background: #ff1493; /*cor do fundo*/
+ /* padding: 50px;estica a caixa*/
+ margin: 20px; ;/*espacamento externo*/
+ 
+}
+.box-2{
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 20px;
+}
+

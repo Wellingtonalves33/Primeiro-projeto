@@ -1,0 +1,26 @@
+*{
+    box-sizing: content-box; /* tudo o mesmo tamanha nao cresce*/
+}
+
+
+
+h1{
+    color: palegreen;    /* cor dos textos */
+font-size: 64px;  /*Tamanho das fontes */
+font-style: italic; /* estilo da fonte*/
+text-shadow: 10px 10px 30px royalblue;/* sombra no texto*/
+}
+p{
+    color: black;
+    font-size: 32px;
+    font-weight:690 ; /*peso da fonte */
+font-style: italic;
+line-height: 45px; /* altura das linha*/
+letter-spacing: spacing 10px; ; /*espaço entre as letras*/
+word-spacing: normal;/* espacamento entre as paravras*/
+text-align: center; /* alinhamento do texto*/
+text-transform:capitalize ;/* configura para deixa ou tudo maiusculo ou minusculo ou sou a primeira letra da paravra */
+text-decoration:underline ;/* configuraçao no texto*/
+
+}
+/* box sizing*/

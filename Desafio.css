@@ -1,0 +1,148 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    /* a margin da parte de cima*/
+    margin-left: 42px;
+    /* a margin da lado esquedo*/
+}
+
+.link-header {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    /*espaçamento das letras*/
+    color: #17233D;
+    margin-right: 32px;
+    /*margin do lado direito*/
+
+}
+
+.button {
+
+    background: #6fbf44;
+    border: 1px solid #4cb538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+img {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+P {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width:600px) {
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        top: -1331px;
+        left: 1185px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+
+    }
+
+    a {
+        display: none;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        top: -1242px;
+        left: 1171px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+
+    }
+
+    .button {
+        position: absolute;
+        left: 378px;
+        top: 27px;}
+    .button-2{
+        margin: 0 auto;
+        display: block;
+    }
+    
+    div{
+        display: block;
+        position: absolute;
+        top: 220px;
+        text-align: center;
+    }
+    img {
+        display: block;
+            width: 312px;
+            height: 288px;
+            position: absolute;
+            top: 593px;
+            left: -21pxx;
+        }
+
+    
+    }
