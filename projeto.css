@@ -1,0 +1,115 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    /* quando passa o mause fica a maozinha*/
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.log-img {
+    width: 568px;
+    height: 500px;
+    opacity: 0px;
+    margin-left: 125px;
+    /* margem do lado esquedo*/
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.button-main {
+    background: #adff00;
+    cursor: pointer;
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 25));
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+@media screen and (max-width:600px){
+    .log-img {
+        width: 354px;
+        height: 317px;
+        top: -1218px;
+        left: -1717px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    header{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 55px;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    img{
+       display: block;
+       margin-left: auto;
+       }
+    button-main{
+        margin: 0 auto;
+        display: block;
+    }
+}
